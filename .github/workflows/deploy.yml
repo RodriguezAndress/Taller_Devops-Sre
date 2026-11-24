@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           source: .
-          target: "/home/${{ secrets.USERNAME }}//proyecto1"
+          target: "/home/${{ secrets.USERNAME }}/proyecto1"
           overwrite: true
 
       - name: levantar contenedor
